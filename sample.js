@@ -77,11 +77,11 @@ $(document).ready(function(){
 
 //②「ランク」ボタンを押すとA~D判定が出力される
   $('#btn-evaluation').click(function() {
-    $('#evaluation').append(get_achievement());
+   $('#evaluation').html(get_achievement());
   });
 
   $('#btn-judge').click(function() {
-    $('#judge').append(get_pass_or_failure());
+   $('#judge').html(get_pass_or_failure());
   });
 
   $('#btn-declaration').click(function() {
