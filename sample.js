@@ -85,7 +85,7 @@ $(document).ready(function(){
   });
 
   $('#btn-declaration').click(function() {
-    judgement();
+    $('#alert-indicate').remove(judgement());
   });
 });
 // ここに書かれているjsの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構わない。課題要件を満たし、コードの品質が一定の水準にあると判定されればどのような実装でも合格になる。
